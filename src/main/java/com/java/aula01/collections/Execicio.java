@@ -43,7 +43,7 @@ public class Execicio {
         Paciente paciente = new Paciente();
         paciente.setId(1);
         paciente.setNome("Wandberg");
-        paciente.setMatricula(12345);
+        paciente.setMatricula(12645);
         paciente.setPlanoDeSaude("Amil");
 
         paciente.imprimirInfo();
