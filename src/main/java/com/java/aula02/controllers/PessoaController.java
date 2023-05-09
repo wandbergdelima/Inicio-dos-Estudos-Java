@@ -1,7 +1,7 @@
 package com.java.aula02.controllers;
 
 import com.java.aula02.models.Pessoa;
-import com.java.aula02.repositories.PessoaRepository;
+// import com.java.aula02.repositories.PessoaRepository;
 import com.java.aula02.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +18,7 @@ public class PessoaController {
     private PessoaService pessoaService;
 
     @GetMapping("/listar")
-    public List<Pessoa> listarTodos(){
+    public List<Pessoa> listarTodos() {
         return pessoaService.listarTodos();
     }
 }
